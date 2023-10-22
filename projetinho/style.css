@@ -1,0 +1,90 @@
+.header {
+    background-color: #612F74;
+    height: 170px;
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    color: aliceblue;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.titulo-inicial {
+    margin-bottom: 40px;
+}
+
+.conteudo {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 272px;
+    margin-top: -45px;
+    padding-left: 20px;
+}
+
+.formulario {
+    text-align: center;
+    text-transform: uppercase;
+    color: #612F74;
+    border-bottom: 2px solid #612F74;
+    line-height: 45px;
+    width: 100px;
+    margin: 0 auto;
+    height: 45px;
+    font-size: 13px;
+
+}
+
+.hr-form {
+    margin-top: 0px;
+}
+
+input {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type=number] {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type=date] {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.required-field {
+    color: red;
+}
+
+.Opcionais li {
+    list-style: none;
+}
+
+.botao-submit{
+    background-color: #612F74;
+    border: 2px solid transparent;
+    width: 150px;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.botao-submit:hover{
+ background-color: white;
+ border: #612F74;
+ color: #612F74;
+}
